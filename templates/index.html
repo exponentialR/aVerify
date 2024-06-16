@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aVerify - Upload Videos and Annotations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>aVerify - Video Annotation Verification Tool</h1>
+        <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+            <div class="file-input">
+                <label for="videos">Upload Videos:</label>
+                <input type="file" name="videos" id="videos" accept="video/*" multiple required>
+            </div>
+            <div class="file-input">
+                <label for="annotation">Upload Annotation (JSON):</label>
+                <input type="file" name="annotation" id="annotation" accept=".json" required>
+            </div>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>

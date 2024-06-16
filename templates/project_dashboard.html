@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dashboard - aVerify</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Project: {{ project_name }}</h1>
+            <button onclick="history.back()" class="back-btn">Back</button>
+        </header>
+        <form action="{{ url_for('upload', project_name=project_name) }}" method="post" enctype="multipart/form-data">
+            <div class="file-input">
+                <label for="videos">Upload Videos:</label>
+                <input type="file" name="videos" id="videos" accept="video/*" multiple required>
+            </div>
+            <div class="file-input">
+                <label for="annotation">Upload Annotation (JSON):</label>
+                <input type="file" name="annotation" id="annotation" accept=".json" required>
+            </div>
+            <button type="submit">Upload</button>
+        </form>
+        <h2>Actions</h2>
+        <ul>
+            <li><a href="{{ url_for('review', project_name=project_name, annotation_filename='latest') }}">Continue Verification</a></li>
+        </ul>
+    </div>
+</body>
+</html>

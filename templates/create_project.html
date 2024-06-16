@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create or Select Project - aVerify</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>aVerify - Video Annotation Verification Tool</h1>
+            <button class="create-btn" onclick="document.getElementById('createProjectForm').style.display='block'">Create Project</button>
+        </header>
+
+        <div id="createProjectForm" class="modal">
+            <form class="modal-content" action="{{ url_for('create_project') }}" method="post">
+                <span class="close" onclick="document.getElementById('createProjectForm').style.display='none'">&times;</span>
+                <h2>Create New Project</h2>
+                <div class="file-input">
+                    <label for="project_name">Project Name:</label>
+                    <input type="text" name="project_name" id="project_name" required>
+                </div>
+                <button type="submit">Create</button>
+            </form>
+        </div>
+
+        <h2>Existing Projects</h2>
+        <div class="projects-grid">
+            {% for project in projects %}
+                <div class="project-card">
+                    <h3>{{ project.name }}</h3>
+                    <p>Project description or summary here.</p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-check"></i> 1</span>
+                        <span><i class="fas fa-times"></i> 0</span>
+                        <span><i class="fas fa-user"></i> 0</span>
+                    </div>
+                    <p class="project-date">Created on: {{ project.created_at }}</p>
+                    <a href="{{ url_for('project_dashboard', project_name=project.name) }}" class="project-link">Open Project</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            if (event.target === document.getElementById('createProjectForm')) {
+                document.getElementById('createProjectForm').style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

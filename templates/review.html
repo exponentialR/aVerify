@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Annotations - aVerify</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Videos</h2>
+            <ul>
+                {% for annotation in annotations %}
+                    <li><a href="#videoPlayer_{{ loop.index }}">{{ annotation['video_filename'] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Review Annotations</h1>
+            <button onclick="history.back()" class="back-btn">Back</button>
+            {% for annotation in annotations %}
+                <div class="video-container" id="videoPlayer_{{ loop.index }}">
+                    <h2>{{ annotation['video_filename'] }}</h2>
+                    <div class="video-wrapper">
+                        <video controls>
+                            <source src="{{ url_for('static', filename='videos/' + annotation['video_filename']) }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="caption" id="caption_{{ loop.index }}"></div>
+                    </div>
+                    <div class="controls">
+                        <label for="speed_{{ loop.index }}">Speed:</label>
+                        <select id="speed_{{ loop.index }}" class="speed-control">
+                            <option value="0.5">0.5x</option>
+                            <option value="1" selected>1x</option>
+                            <option value="1.5">1.5x</option>
+                            <option value="2">2x</option>
+                        </select>
+                    </div>
+                    <div class="annotation-container" id="annotations_{{ loop.index }}">
+                        {% for trick in annotation['tricks'] %}
+                            <div class="annotation" data-start="{{ trick['start'] }}" data-end="{{ trick['end'] }}">
+                                <p>{{ trick['labels'][0] }}</p>
+                                <button class="correct" disabled>Correct</button>
+                                <button class="incorrect" disabled>Incorrect</button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
