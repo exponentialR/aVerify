@@ -1,0 +1,7 @@
+[desktop]
+Name=aVerify
+Exec=/path/to/averify.sh %f
+icon=/usr/share/images/aview.png
+Type=Application
+Categories=Application;
+terminal=false
