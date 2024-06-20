@@ -17,3 +17,23 @@ AnnotateVerify is a browser-based tool for reviewing and verifying video annotat
 4. **Control Video**: Use the slider to move the video forward or backward.
 
 
+## Running
+To run the application: 
+- Clone the repository
+- Install the required packages using the following command:
+
+  - `pip3 install -r requirements.txt`
+- cd into the direcotry and run the following command:
+
+  `python app.py`
+  
+
+## TODO
+- [ ] Add support for multiple annotation files
+- [ ] Improve logging functionality
+- [ ] Add support for different video formats
+- [ ] Add support for different annotation formats
+- [ ] Add support for different video players
+- [ ] Add support for segment-level verification
+- [ ] Add support for custom labels
+- [ ] Add support to change labels on the fly.
