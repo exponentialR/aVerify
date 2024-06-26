@@ -1,0 +1,52 @@
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 5.748070920620859, "end": 8.80245723106042, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 8.80245723106042, "end": 10.149014636738075, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 10.083328909631847, "end": 11.824000677946866, "label": "Base Position Change (BPC)", "status": "incorrect"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 11.824000677946866, "end": 14.517115489302178, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 14.517115489302178, "end": 15.929358622086061, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 15.962201485639175, "end": 18.03130188948533, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 18.03130188948533, "end": 19.673445067141003, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 20.85578815505309, "end": 22.629302786921226, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 22.66214565047434, "end": 24.17291737391756, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 24.205760237470674, "end": 25.585160506701442, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 29.78904704149998, "end": 35.864407, "label": "Human Neutral Swap (HNS)", "status": "incorrect"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 1.182912886738075, "end": 3.5804419261153644, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 1.182912886738075, "end": 3.5804419261153644, "label": "Human Goal Directed Transport (HGOT)", "status": "incorrect"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 3.5804419261153644, "end": 5.748070920620859, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 5.748070920620859, "end": 8.80245723106042, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 8.80245723106042, "end": 10.149014636738075, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 11.824000677946866, "end": 14.517115489302178, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 14.517115489302178, "end": 15.929358622086061, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 15.962201485639175, "end": 18.03130188948533, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 1.182912886738075, "end": 3.5804419261153644, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 3.5804419261153644, "end": 5.748070920620859, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 5.748070920620859, "end": 8.80245723106042, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 8.80245723106042, "end": 10.149014636738075, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 10.083328909631847, "end": 11.824000677946866, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 11.824000677946866, "end": 14.517115489302178, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 14.517115489302178, "end": 15.929358622086061, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 15.962201485639175, "end": 18.03130188948533, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 18.03130188948533, "end": 19.673445067141003, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 19.706287930694117, "end": 20.85578815505309, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 20.85578815505309, "end": 22.629302786921226, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 22.66214565047434, "end": 24.17291737391756, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 24.205760237470674, "end": 25.585160506701442, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 25.585160506701442, "end": 26.964560775932217, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 28.50817536292855, "end": 29.723361314393753, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 29.78904704149998, "end": 35.864407, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 0.03341266237910064, "end": 1.182912886738075, "label": "Base Hold Out (BHO)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 0.03341266237910064, "end": 1.182912886738075, "label": "Base Hold Out (BHO)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 1.182912886738075, "end": 3.5804419261153644, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 3.5804419261153644, "end": 5.748070920620859, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 5.748070920620859, "end": 8.80245723106042, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 10.083328909631847, "end": 11.824000677946866, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 11.824000677946866, "end": 14.517115489302178, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 18.03130188948533, "end": 19.673445067141003, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 19.706287930694117, "end": 20.85578815505309, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 20.85578815505309, "end": 22.629302786921226, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 22.66214565047434, "end": 24.17291737391756, "label": "Human Goal Directed Transport (HGOT)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 24.205760237470674, "end": 25.585160506701442, "label": "Human Neutral Swap (HNS)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 25.585160506701442, "end": 26.964560775932217, "label": "Base Position Change (BPC)", "status": "correct"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 26.99740363948533, "end": 28.442489635822323, "label": "Human Goal Directed Transport (HGOT)", "status": "incorrect"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 28.50817536292855, "end": 29.723361314393753, "label": "Human Neutral Swap (HNS)", "status": "incorrect"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 29.78904704149998, "end": 35.864407, "label": "Human Neutral Swap (HNS)", "status": "incorrect"}
+{"video": "http://127.0.0.1:5000/static/videos/p42_CAM_AV_P_BIAH_RB.mp4", "start": 8.80245723106042, "end": 10.149014636738075, "label": "Human Neutral Swap (HNS)", "status": "correct"}
