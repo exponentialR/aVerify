@@ -11,7 +11,7 @@ AnnotateVerify is a browser-based tool for reviewing and verifying video annotat
 ![AnnotateVerify](media/AnnotateVerify.png)
 - **Video Playback with Annotations**: Play video segments with captions displaying the assigned labels.
 - **Verification Buttons**: Provide "Correct" and "Incorrect" buttons for users to confirm or reject labels.
-- **Logging Incorrect Labels**: Log incorrect labels with timestamps to an output file.
+- **Logging Correct and Incorrect Labels**: Log incorrect labels with timestamps to an output file.
 - **Slider for Video Control**: Allow users to move the video forward or backward using a slider.
 
 ## Usage

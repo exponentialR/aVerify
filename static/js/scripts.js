@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const caption = container.querySelector('.caption');
         const speedControl = container.querySelector('.speed-control');
 
+        const projectName = window.location.pathname.split('/')[2];
+
         speedControl.addEventListener('change', function () {
             videoPlayer.playbackRate = parseFloat(speedControl.value);
         });
@@ -32,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
             correctButton.addEventListener('click', function () {
-                fetch('/log_label', {
+                fetch(`/log_label/${projectName}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -49,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
             incorrectButton.addEventListener('click', function () {
-                fetch('/log_label', {
+                fetch(`/log_label/${projectName}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

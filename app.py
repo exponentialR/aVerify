@@ -6,7 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 app.config['PROJECTS_FOLDER'] = 'projects'
 app.config['LOG_FOLDER'] = 'logs'
-app.config['LOG_FILE'] = os.path.join(app.config['LOG_FOLDER'], 'labels.log')
+# app.config['LOG_FILE'] = os.path.join(app.config['LOG_FOLDER'], 'labels.log')
 
 os.makedirs(app.config['PROJECTS_FOLDER'], exist_ok=True)
 os.makedirs(app.config['LOG_FOLDER'], exist_ok=True)
@@ -92,10 +92,11 @@ def review(project_name):
     return render_template('review.html', annotations=matched_annotations)
 
 
-@app.route('/log_label', methods=['POST'])
-def log_label():
+@app.route('/log_label/<project_name>', methods=['POST'])
+def log_label(project_name):
     data = request.json
-    with open(app.config['LOG_FILE'], 'a') as f:
+    log_file = os.path.join(app.config['LOG_FOLDER'], f"{project_name}.log")
+    with open(log_file, 'a') as f:
         f.write(json.dumps(data) + '\n')
     return jsonify(success=True)
 
