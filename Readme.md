@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13956072.svg)](https://doi.org/10.5281/zenodo.13956072)
+
 # aVerify
 review and verify video annotated via Label Studio
 requires: Python 3.6 or later and Flask 1.1.2 or later
