@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this tool in your annotation workflow, please cite it as below:"
+title: "aVerify: A Video Annotation Verification Tool"
+authors:
+  - family-names: Adebayo
+    given-names: Samuel
+    orcid: https://orcid.org/0000-0002-8592-1196
+date-released: 2024-10-19
+version: "1.0.0"
+doi: 10.5281/zenodo.13956072
+repository-code: https://github.com/yourusername/aVerify
+license: MIT
